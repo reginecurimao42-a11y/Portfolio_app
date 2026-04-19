@@ -56,7 +56,7 @@ st.write("Aspiring Developer and Designer")
 col1, col2, col3 = st.columns([1,4,1])
 
 with col2:
-    st.image("images/profile.jpg", use_container_width=True)
+    st.image("portfolio_app/images/profile.jpg", use_container_width=True)
 
 st.write("""
 This is my portfolio website built using Streamlit.
