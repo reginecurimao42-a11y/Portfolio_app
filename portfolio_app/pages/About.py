@@ -1,22 +1,18 @@
 import streamlit as st
 
-# 🎨 SAME BACKGROUND DESIGN
 st.markdown("""
 <style>
 
-/* 🌈 Light gradient background */
 .stApp {
     background: linear-gradient(to right, #43e97b, #38f9d7);
 }
 
-/* Center content */
 .block-container {
     max-width: 900px;
     margin: auto;
     padding-top: 2rem;
 }
 
-/* Light glass card */
 .card {
     background: rgba(255, 255, 255, 0.85);
     padding: 30px;
@@ -26,7 +22,6 @@ st.markdown("""
     text-align: center;
 }
 
-/* Text */
 h1 { color: #1e293b; }
 p, div { color: #334155; text-align: center; }
 
