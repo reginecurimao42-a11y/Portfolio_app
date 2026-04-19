@@ -9,20 +9,17 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* Background */
 .stApp {
     background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     font-family: 'Arial';
 }
 
-/* Center container card */
 .block-container {
     max-width: 900px;
     margin: auto;
     padding: 2rem;
 }
 
-/* Glass card */
 .main-card {
     background: rgba(255, 255, 255, 0.08);
     padding: 30px;
@@ -32,19 +29,16 @@ st.markdown("""
     text-align: center;
 }
 
-/* Titles */
 h1, h2, h3 {
     color: #ffffff;
     text-align: justify;
 }
 
-/* Text */
 p, div {
     color: #e0e0e0;
     text-align: justify;
 }
 
-/* Buttons */
 .stButton button {
     background-color: #ffffff;
     color: #0f2027;
